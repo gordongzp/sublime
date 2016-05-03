@@ -1,0 +1,17 @@
+<snippet>
+	<content><![CDATA[
+<?php
+namespace ${1:Home}\Controller;
+use Think\Controller;
+class ${2:Classname}Controller extends Controller {
+    public function index(){
+    }
+    public function ${3:getUserName}(){
+    }
+}
+]]></content>
+	<!-- Optional: Set a tabTrigger to define how to trigger the snippet -->
+	<tabTrigger>tp-ctrl</tabTrigger>
+	<!-- Optional: Set a scope to limit where the snippet will trigger -->
+	<!-- <scope>source.php</scope> -->
+</snippet>

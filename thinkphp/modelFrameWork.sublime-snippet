@@ -1,0 +1,15 @@
+<snippet>
+	<content><![CDATA[
+<?php
+namespace ${1:Home}\Model;
+use Think\Model;
+class ${2:Test}Model extends Model {
+    public function ${3:getUserName}(){
+    }
+}
+]]></content>
+	<!-- Optional: Set a tabTrigger to define how to trigger the snippet -->
+	<tabTrigger>tp-model</tabTrigger>
+	<!-- Optional: Set a scope to limit where the snippet will trigger -->
+	<!-- <scope>source.php</scope> -->
+</snippet>
