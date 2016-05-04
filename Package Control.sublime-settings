@@ -1,0 +1,18 @@
+{
+	"bootstrapped": true,
+	"in_process_packages":
+	[
+	],
+	"installed_packages":
+	[
+		"Bootstrap 3 Snippets",
+		"ConvertChineseCharacters",
+		"ConvertToUTF8",
+		"Git",
+		"jQuery Snippets pack",
+		"Package Control",
+		"SFTP",
+		"SublimeCodeIntel",
+		"Tag"
+	]
+}
