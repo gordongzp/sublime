@@ -1,0 +1,11 @@
+
+
+<snippet>
+	<content><![CDATA[
+U('${1:Home/Act/select}',${2:array('cate_id'=>1,'status'=>1)})
+]]></content>
+	<!-- Optional: Set a tabTrigger to define how to trigger the snippet -->
+	<tabTrigger>tp-u</tabTrigger>
+	<!-- Optional: Set a scope to limit where the snippet will trigger -->
+	<!-- <scope>source.php</scope> -->
+</snippet>

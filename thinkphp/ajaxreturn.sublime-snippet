@@ -1,0 +1,10 @@
+
+<snippet>
+	<content><![CDATA[
+\$this->ajaxReturn(\$${1:msg});
+]]></content>
+	<!-- Optional: Set a tabTrigger to define how to trigger the snippet -->
+	<tabTrigger>tp-returnajax</tabTrigger>
+	<!-- Optional: Set a scope to limit where the snippet will trigger -->
+	<scope>source.php</scope>
+</snippet>
