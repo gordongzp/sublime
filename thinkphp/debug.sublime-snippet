@@ -3,6 +3,7 @@
 echo "<pre>";
 print_r(${1:\$whatToShow});
 echo "<pre>";
+exit();
 ]]></content>
 	<!-- Optional: Set a tabTrigger to define how to trigger the snippet -->
 	<tabTrigger>tp-debug</tabTrigger>
