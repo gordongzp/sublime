@@ -1,0 +1,66 @@
+<snippet>
+	<content><![CDATA[
+<div class="tree well">
+	<ul>
+		<li>
+			<span><i class="glyphicon glyphicon-folder-open"></i> 一级</span> <a href="">Goes somewhere</a>
+			<ul>
+				<li>
+					<span><i class="glyphicon glyphicon-minus-sign"></i> 二级</span> <a href="">Goes somewhere</a>
+					<ul>
+						<li>
+							<span><i class="glyphicon glyphicon-leaf"></i> 三级（不含子）</span> <a href="">Goes somewhere</a>
+						</li>
+					</ul>
+				</li>
+				<li>
+					<span><i class="glyphicon glyphicon-minus-sign"></i> 二级</span> <a href="">Goes somewhere</a>
+					<ul>
+						<li>
+							<span><i class="glyphicon glyphicon-leaf"></i> 三级（不含子）</span> <a href="">Goes somewhere</a>
+						</li>
+						<li>
+							<span><i class="glyphicon glyphicon-minus-sign"></i> 三级</span> <a href="">Goes somewhere</a>
+							<ul>
+								<li>
+									<span><i class="glyphicon glyphicon-minus-sign"></i> 四级</span> <a href="">Goes somewhere</a>
+									<ul>
+										<li>
+											<span><i class="glyphicon glyphicon-leaf"></i> 五级（不含子）</span> <a href="">Goes somewhere</a>
+										</li>
+										<li>
+											<span><i class="glyphicon glyphicon-leaf"></i> 五级（不含子）</span> <a href="">Goes somewhere</a>
+										</li>
+									</ul>
+								</li>
+								<li>
+									<span><i class="glyphicon glyphicon-leaf"></i> 四级（不含子）</span> <a href="">Goes somewhere</a>
+								</li>
+								<li>
+									<span><i class="glyphicon glyphicon-leaf"></i> 四级（不含子）</span> <a href="">Goes somewhere</a>
+								</li>
+							</ul>
+						</li>
+						<li>
+							<span><i class="glyphicon glyphicon-leaf"></i> 三级（不含子）</span> <a href="">Goes somewhere</a>
+						</li>
+					</ul>
+				</li>
+			</ul>
+		</li>
+		<li>
+			<span><i class="glyphicon glyphicon-folder-open"></i> 一级</span> <a href="">Goes somewhere</a>
+			<ul>
+				<li>
+					<span><i class="glyphicon glyphicon-leaf"></i> 二级（不含子）</span> <a href="">Goes somewhere</a>
+				</li>
+			</ul>
+		</li>
+	</ul>
+</div>
+]]></content>
+	<!-- Optional: Set a tabTrigger to define how to trigger the snippet -->
+	<tabTrigger>tp-utree</tabTrigger>
+	<!-- Optional: Set a scope to limit where the snippet will trigger -->
+	<!-- <scope>source.php</scope> -->
+</snippet>
