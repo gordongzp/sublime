@@ -1,0 +1,14 @@
+<snippet>
+	<content><![CDATA[
+\$page=I('get.p',1,'int');
+\$limit=${1:5};//每页显示数量
+\$lists=\$this->page(\$page,\$limit)->select();//先where 再order再。。。
+\$count=\$this->count();
+\$Page=new \Think\Page(\$count,\$limit);
+return array('show' => \$Page->show(), 'lists'=>\$lists);
+		]]></content>
+		<!-- Optional: Set a tabTrigger to define how to trigger the snippet -->
+		<tabTrigger>tp-page</tabTrigger>
+		<!-- Optional: Set a scope to limit where the snippet will trigger -->
+		<scope>source.php</scope>
+	</snippet>
