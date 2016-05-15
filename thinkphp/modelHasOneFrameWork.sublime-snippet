@@ -1,0 +1,23 @@
+<snippet>
+	<content><![CDATA[
+<?php
+namespace ${1:Home}\Model;
+use Think\Model\RelationModel;
+class ${2:Test}Model extends RelationModel {
+    protected \$_link = array(
+        '${3:Profile}'=>array(
+            'mapping_type'      => self::HAS_ONE,
+            'class_name'        => '${4:Profile}',
+            // 定义更多的关联属性
+            ……
+            ),
+    );
+    public function ${5:getUserName}(){
+    }
+}
+]]></content>
+	<!-- Optional: Set a tabTrigger to define how to trigger the snippet -->
+	<tabTrigger>tp-hasone</tabTrigger>
+	<!-- Optional: Set a scope to limit where the snippet will trigger -->
+	<!-- <scope>source.php</scope> -->
+</snippet>

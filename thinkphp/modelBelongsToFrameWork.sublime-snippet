@@ -4,23 +4,23 @@
 namespace ${1:Home}\Model;
 use Think\Model\RelationModel;
 class ${2:Test}Model extends RelationModel {
+
     protected \$_link = array(
-         '关联1'  =>  array(
-             '关联属性1' => '定义',
-             '关联属性N' => '定义',
-         ),
-         '关联2'  =>  array(
-             '关联属性1' => '定义',
-             '关联属性N' => '定义',
-         ),
+        '${3:Dept}' => array(
+            'mapping_type'  => self::BELONGS_TO,
+            'class_name'    => '${4:Dept}',
+            'foreign_key'   => '${5:userId}',
+            'mapping_name'  => '${6:dept}',
+    // 定义更多的关联属性
+),
     );
 
-    public function ${3:getUserName}(){
+    public function ${7:getUserName}(){
     }
 }
 ]]></content>
 	<!-- Optional: Set a tabTrigger to define how to trigger the snippet -->
-	<tabTrigger>tp-modelrelation</tabTrigger>
+	<tabTrigger>tp-belongsto</tabTrigger>
 	<!-- Optional: Set a scope to limit where the snippet will trigger -->
 	<!-- <scope>source.php</scope> -->
 </snippet>

@@ -1,0 +1,26 @@
+<snippet>
+	<content><![CDATA[
+<?php
+namespace ${1:Home}\Model;
+use Think\Model\RelationModel;
+class ${2:Test}Model extends RelationModel {
+    protected \$_link = array(
+        '${3:Article}' => array(
+            'mapping_type'  => self::HAS_MANY,
+            'class_name'    => '${4:Article}',
+            'foreign_key'   => '${5:userid}',
+            'mapping_name'  => '${6:articles}',
+            'mapping_order' => 'create_time desc',
+    // 定义更多的关联属性
+),
+    );
+
+    public function ${7:getUserName}(){
+    }
+}
+]]></content>
+	<!-- Optional: Set a tabTrigger to define how to trigger the snippet -->
+	<tabTrigger>tp-hasmany</tabTrigger>
+	<!-- Optional: Set a scope to limit where the snippet will trigger -->
+	<!-- <scope>source.php</scope> -->
+</snippet>
