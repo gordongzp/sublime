@@ -1,0 +1,27 @@
+<snippet>
+	<content><![CDATA[
+<?php
+namespace ${1:Home}\Model;
+use Think\Model\RelationModel;
+class ${2:Test}Model extends RelationModel {
+    protected \$_link = array(
+        '${3:Group}' => array(
+            'mapping_type'      =>  self::MANY_TO_MANY,
+            'class_name'        =>  '${3:Group}',
+            'mapping_name'      =>  '${4:groups}',
+            'foreign_key'       =>  '${5:user_id}',
+            'relation_foreign_key'  =>  '${6:group_id}',
+            'relation_table'    =>  '${7:think}_${8:group}_${9:user}'
+        ),
+
+    );
+
+}
+]]></content>
+	<!-- Optional: Set a tabTrigger to define how to trigger the snippet -->
+	<tabTrigger>tp-m2m</tabTrigger>
+	<!-- Optional: Set a scope to limit where the snippet will trigger -->
+	<!-- <scope>source.php</scope> -->
+</snippet>
+
+
