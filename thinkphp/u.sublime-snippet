@@ -2,7 +2,7 @@
 
 <snippet>
 	<content><![CDATA[
-U('${1:Home/Act/select}',${2:array('cate_id'=>1,'status'=>1)})
+U('${1:Home}/${2:Act}/${3:select}',array('${4:cate_id}'=>${5:1},'${6:status}'=>${7:1}))
 ]]></content>
 	<!-- Optional: Set a tabTrigger to define how to trigger the snippet -->
 	<tabTrigger>tp-u</tabTrigger>
